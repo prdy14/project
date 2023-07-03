@@ -1,8 +1,8 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
 
-const JWT_SECRET = "praveen1";
-const REFRESH_SECRET = "praveen2";
+const JWT_SECRET = "dlfmlsrtgfgak4g.gjgdf4aagfg";
+const REFRESH_SECRET = "pe35.rdggaagavhearhagrg54aaga8aa54eagen2";
 
 function generateAccessToken(user) {
   return jwt.sign(user, JWT_SECRET, { expiresIn: "1m" });
